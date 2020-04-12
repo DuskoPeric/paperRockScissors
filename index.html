@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, paper, scissors</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6dad1cb429.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="score-content">
+        <h1>rock paper scissors</h1>
+        <div class="score-box">
+          <p>score</p>
+          <div class="results">
+            <div class="r1">0</div>
+            <div class="r2">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="game-content">
+        <div class="game-box">
+          <div class="you">
+            <h3>Pick one</h3>
+            <div class="you-holder">
+              <div class="circle-option red" data-pick="scissors">
+                <div class="inner-circle">
+                  <i class="fas fa-hand-scissors"></i>
+                </div>
+              </div>
+              <div class="circle-option blue" data-pick="rock">
+                <div class="inner-circle">
+                  <i class="fas fa-hand-rock"></i>
+                </div>
+              </div>
+              <div class="circle-option yellow" data-pick="paper">
+                <div class="inner-circle">
+                  <i class="fas fa-hand-paper"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="result">
+            <p>You win</p>
+            <button>play again</button>
+          </div>
+          <div class="boot">
+            <h3>Computer pick</h3>
+            <div class="boot-holder">
+              <div class="circle-bot green">
+                <div class="inner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
